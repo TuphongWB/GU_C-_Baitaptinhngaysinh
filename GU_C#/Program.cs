@@ -19,6 +19,7 @@ namespace GU_C_
             if (!DateTime.TryParseExact(input, "dd/MM/yyyy", null, System.Globalization.DateTimeStyles.None, out ngaySinh))
             {
                 Console.WriteLine("Định dạng ngày tháng không hợp lệ.");
+                Console.ReadLine();
                 return;
             }
 
